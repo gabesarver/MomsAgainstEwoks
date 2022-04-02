@@ -10,8 +10,8 @@ function Homepage() {
           alignItems:'center',  
           height: '450px',
           }}>
-            <text className='text'>
-              Things
+            <text className='header1'>
+              Ewoks are the DEVIL
             </text>
         </div>
     </body>
