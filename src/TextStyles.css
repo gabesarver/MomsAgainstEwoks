@@ -24,3 +24,10 @@
     word-wrap: break-word;
     margin-right: 20%;
 }
+
+.advertisement {
+    height: 240px;
+    width: 120px;
+    align-self: right;
+    margin-right: 90px;
+}

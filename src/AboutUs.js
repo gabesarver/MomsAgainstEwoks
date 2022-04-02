@@ -7,10 +7,10 @@ import background from './neongrid.png'
 
 function AboutUs() {
     return (
-        <body className='body'>
-            <div className = 'content' style={{ backgroundImage: `url(${background})`, 
-                backgroundRepeat: 'repeat',
-            }}>
+        <div className='body' style={{ backgroundImage: `url(${background})`, 
+        backgroundRepeat: 'repeat', height: '100%',
+    }}>
+            <div className = 'content' >
             
             
                 <EwokNavbar />
@@ -42,7 +42,7 @@ function AboutUs() {
 
 
             </div>
-        </body>
+        </div>
         
     );
 

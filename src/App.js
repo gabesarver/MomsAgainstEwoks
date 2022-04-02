@@ -4,14 +4,16 @@ import EwokNavbar from './EwokNavbar.js'
 
 function App() {
   return (
+    
     <div className="main">
+      <EwokNavbar />
       <div className="logo">
         <img src={logo} className="App-logo" alt="logo" />
       </div>
       <div className="App">
         
       </div>
-      <EwokNavbar />
+      
 
       <div>
         Main Page
