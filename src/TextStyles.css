@@ -1,14 +1,19 @@
+
 .header1 {
+    margin: auto;
+    width: 50%;
     font-style: normal;
     font-weight: bold;
     font-family: Arial;
     color: rgb(255, 115, 0);
     text-align: center;
     font-size: 40px;
-
 }
 
 .body {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
     font-style: normal;
     font-family: Arial;
     color: rgb(251, 255, 0);

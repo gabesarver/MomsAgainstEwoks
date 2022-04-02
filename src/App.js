@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </div>
       <div className="App">
-        WELCOME TO HELL
+        
       </div>
       <EwokNavbar />
 
