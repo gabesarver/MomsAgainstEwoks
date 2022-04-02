@@ -1,0 +1,17 @@
+.header1 {
+    font-style: normal;
+    font-weight: bold;
+    font-family: Arial;
+    color: rgb(255, 115, 0);
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.body {
+    font-style: normal;
+    font-family: Arial;
+    color: rgb(251, 255, 0);
+    text-align: left;
+    font-size: 25px;
+}

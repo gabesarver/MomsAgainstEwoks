@@ -1,4 +1,10 @@
-nav {
+.nav {
     background-color: #831187;
+    text-align: left;
+    
+    
+}
+.navText {
+    margin: 15px;
     color: #28dce9;
 }
