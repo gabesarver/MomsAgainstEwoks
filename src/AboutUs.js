@@ -1,21 +1,22 @@
 import React from 'react'
 import './TextStyles.css'
 import EwokNavbar from './EwokNavbar.js'
-import background from './neongrid.png'
+import background from './images/neongrid.png'
+import Header from './Header'
 //import './components/TextStyles.'
 
 
 function AboutUs() {
     return (
+        
         <div className='body' style={{ backgroundImage: `url(${background})`, 
-        backgroundRepeat: 'repeat', height: '100%',
-    }}>
+            backgroundRepeat: 'repeat', height: '100%',
+        }}>
+            <Header />
             <div className = 'content' >
-            
             
                 <EwokNavbar />
             
-
                 <center className='header1'> About Us </center><br></br>
                 <text className='body'>
                 We are Moms Against Ewoks (MAE), and our mission is to 

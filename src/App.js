@@ -1,23 +1,15 @@
-import logo from './fuckewok.svg';
 import './App.css';
 import EwokNavbar from './EwokNavbar.js'
+import Homepage from './Homepage';
+import Header from './Header';
 
 function App() {
   return (
     
     <div className="main">
+      <Header />
       <EwokNavbar />
-      <div className="logo">
-        <img src={logo} className="App-logo" alt="logo" />
-      </div>
-      <div className="App">
-        
-      </div>
-      
-
-      <div>
-        Main Page
-      </div>
+      <Homepage />
 
     </div>
   );

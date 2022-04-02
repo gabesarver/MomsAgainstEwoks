@@ -1,7 +1,8 @@
 import React from 'react'
 import EwokNavbar from './EwokNavbar.js'
-import background from './neongrid.png'
+import background from './images/neongrid.png'
 import './TextStyles.css'
+import Header from './Header.js'
 
 function Action() {
   return (
@@ -9,7 +10,7 @@ function Action() {
             <div style={{ backgroundImage: `url(${background})`, 
                 backgroundRepeat: 'repeat',
             }}>
-                
+                <Header />
                 <EwokNavbar />
             
                 <center className='header1'> What Can YOU do?? </center><br></br>
