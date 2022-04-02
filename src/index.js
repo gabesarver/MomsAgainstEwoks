@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import AboutUs from './AboutUs';
 import reportWebVitals from './reportWebVitals';
+import Action from './Action';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
         
         <Route path="/MomsAgainstEwoks/AboutUs" element= {<AboutUs />}/>
         <Route path="/MomsAgainstEwoks" element= {<App />}/>
+        <Route path="/MomsAgainstEwoks/Action" element= {<Action />}/>
       </Routes>
     </Router>
     
