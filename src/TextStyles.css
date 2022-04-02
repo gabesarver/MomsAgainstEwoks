@@ -20,3 +20,7 @@
     text-align: left;
     font-size: 25px;
 }
+.content {
+    word-wrap: break-word;
+    margin-right: 20%;
+}

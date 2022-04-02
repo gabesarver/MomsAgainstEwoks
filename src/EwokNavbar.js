@@ -8,7 +8,7 @@ function EwokNavbar() {
             <Navbar className='nav' variant='light' fixed='top'>
                 <Container>
                     <Nav className = 'me-auto'>
-                        <Nav.Link href='/aboutus' className='navText' >About Us</Nav.Link>
+                        <Nav.Link href='/MomsAgainstEwoks/AboutUs' className='navText' >About Us</Nav.Link>
                         <Nav.Link href='/MomsAgainstEwoks' className='navText'>Home</Nav.Link>
                     </Nav>
                 </Container>
