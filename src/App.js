@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+import logo from './fuckewok.svg';
 import './App.css';
 import EwokNavbar from './EwokNavbar.js'
 
 function App() {
   return (
-    <div className="App">
-      <EwokNavbar />
-      <header className="App-header">
+    <div className="main">
+      <div className="logo">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
+      <div className="App">
+        WELCOME TO HELL
+      </div>
+      <EwokNavbar />
+
+      <div>
+        Main Page
+      </div>
+
     </div>
   );
 }
