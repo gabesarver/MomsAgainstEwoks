@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/MomsAgainstEwoks/static/css/main.7217a3e4.css",
-    "main.js": "/MomsAgainstEwoks/static/js/main.05b7dbd9.js",
+    "main.css": "/MomsAgainstEwoks/static/css/main.81da5211.css",
+    "main.js": "/MomsAgainstEwoks/static/js/main.dc233c26.js",
     "static/js/787.08a83710.chunk.js": "/MomsAgainstEwoks/static/js/787.08a83710.chunk.js",
-    "static/media/logo.svg": "/MomsAgainstEwoks/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/scary.png": "/MomsAgainstEwoks/static/media/scary.1ac655e8a8e6e45ffe04.png",
+    "static/media/neongrid.png": "/MomsAgainstEwoks/static/media/neongrid.69fbaa9f7fd4597ed5b3.png",
+    "static/media/fuckewok.svg": "/MomsAgainstEwoks/static/media/fuckewok.0a1ded9bf290cfddf979826ee7c0066a.svg",
     "index.html": "/MomsAgainstEwoks/index.html",
-    "main.7217a3e4.css.map": "/MomsAgainstEwoks/static/css/main.7217a3e4.css.map",
-    "main.05b7dbd9.js.map": "/MomsAgainstEwoks/static/js/main.05b7dbd9.js.map",
+    "main.81da5211.css.map": "/MomsAgainstEwoks/static/css/main.81da5211.css.map",
+    "main.dc233c26.js.map": "/MomsAgainstEwoks/static/js/main.dc233c26.js.map",
     "787.08a83710.chunk.js.map": "/MomsAgainstEwoks/static/js/787.08a83710.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7217a3e4.css",
-    "static/js/main.05b7dbd9.js"
+    "static/css/main.81da5211.css",
+    "static/js/main.dc233c26.js"
   ]
 }
