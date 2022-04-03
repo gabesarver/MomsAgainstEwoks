@@ -8,11 +8,11 @@ import Copyright from './Copyright'
 export default function Quiz() {
     const questions = [
 		{
-			questionText: 'Has Your Child seen Star Wars?',
+			questionText: 'Has your child seen Star Wars?',
 			answerOptions: [
-				{ answerText: 'Yes, they liked it', isCorrect: true },
-				{ answerText: 'Yes, They are addicted!', isCorrect: true },
-				{ answerText: 'No', isCorrect: false },
+				{ answerText: 'Yes, they liked it.', isCorrect: true },
+				{ answerText: 'Yes, they are addicted!', isCorrect: true },
+				{ answerText: 'No.', isCorrect: false },
 			],
 		},
 		{
@@ -25,7 +25,7 @@ export default function Quiz() {
 			],
 		},
 		{
-			questionText: 'Does your child seem to like to speak in tounges?',
+			questionText: 'Does your child often speak in tongues?',
 			answerOptions: [
 				{ answerText: 'Yes!', isCorrect: true },
 				{ answerText: 'They do not know how to talk yet so yes', isCorrect: false },
@@ -33,7 +33,7 @@ export default function Quiz() {
 			],
 		},
 		{
-			questionText: 'Is your child going around yelling "Hail Satan!"',
+			questionText: 'Is your child going around yelling "Hail Satan"?',
 			answerOptions: [
 				{ answerText: 'No', isCorrect: false },
 				{ answerText: 'Not Sure', isCorrect: false },

@@ -23,33 +23,35 @@ export default function Proof() {
             backgroundRepeat: 'repeat',
 
         }}>
+            <div className = 'content'>
             <text>You say you need proof do you? Well how about this:</text><br></br>
             <text><i>We reversed and pitched down the audio of the Ewoks talking. Listen to what they ACTUALLY say!</i></text><br></br><br></br><br></br>
+            </div>
+            <div className = 'content' style={{display: 'inline-block', width: "40%"}}>
             
-            <div className = 'content' style={{display: 'inline-block', width: "50%"}}>
               <text>Ewok Language</text> <br></br>
             
               <ReactAudioPlayer src={ewokTwo} controls />
             </div>
-            <div className = 'content' style={{display: 'inline-block', width: "50%"}}>
+            <div className = 'content' style={{display: 'inline-block', width: "40%"}}>
               <text>Translated</text>  <br></br>
               <ReactAudioPlayer src={hailSatan} controls /><br></br><br></br>
             </div>
             <div className= 'line'></div>
-            <div className = 'content' style={{display: 'inline-block', width: "50%"}}>
+            <div className = 'content' style={{display: 'inline-block', width: "40%"}}>
               <text>Ewok Language</text> <br></br>
               <ReactAudioPlayer src={ewokThree} controls />
               </div>
-              <div className = 'content' style={{display: 'inline-block', width: "50%"}}>
+              <div className = 'content' style={{display: 'inline-block', width: "40%"}}>
               <text>Translated</text> <br></br>
               <ReactAudioPlayer src={longDay} controls /><br></br><br></br>
             </div>
             <div className= 'line'></div>
-            <div className = 'content' style={{display: 'inline-block', width: "50%"}}>
+            <div className = 'content' style={{display: 'inline-block', width: "40%"}}>
               <text>Ewok Language</text> <br></br>
               <ReactAudioPlayer src={ewokFour} controls />
               </div>
-              <div className = 'content' style={{display: 'inline-block', width: "50%"}}>
+              <div className = 'content' style={{display: 'inline-block', width: "40%"}}>
               <text>Translated</text> <br></br>
               <ReactAudioPlayer src={youToo} controls /><br></br><br></br>
             </div>
