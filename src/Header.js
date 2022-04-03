@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from './images/fuckewok.svg';
-import './header.css';
-import './TextStyles.css';
+import './css/header.css';
+import './css/TextStyles.css';
 
 export default function Header() {
   return (

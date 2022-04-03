@@ -1,29 +1,27 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import {Routes, Route, BrowserRouter as Router} from 'react-router-dom';
-import './index.css';
-import App from './App';
-import AboutUs from './AboutUs';
-import reportWebVitals from './reportWebVitals';
-import Action from './Action';
-import Proof from './Proof';
-import Quiz from './Quiz';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
+import "./css/index.css";
+import App from "./App";
+import AboutUs from "./AboutUs";
+import reportWebVitals from "./reportWebVitals";
+import Action from "./Action";
+import Proof from "./Proof";
+import Quiz from "./components/Quiz";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="/MomsAgainstEwoks/Quiz" element= {<Quiz />}/>
-        <Route path="/MomsAgainstEwoks/AboutUs" element= {<AboutUs />}/>
-        <Route path="/MomsAgainstEwoks" element= {<App />}/>
-        <Route path="/MomsAgainstEwoks/Action" element= {<Action />}/>
-        <Route path="/MomsAgainstEwoks/Proof" element= {<Proof />}/>
+        <Route path="/MomsAgainstEwoks/Quiz" element={<Quiz />} />
+        <Route path="/MomsAgainstEwoks/AboutUs" element={<AboutUs />} />
+        <Route path="/MomsAgainstEwoks" element={<App />} />
+        <Route path="/MomsAgainstEwoks/Action" element={<Action />} />
+        <Route path="/MomsAgainstEwoks/Proof" element={<Proof />} />
       </Routes>
     </Router>
-    
-  </React.StrictMode>,
-  
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

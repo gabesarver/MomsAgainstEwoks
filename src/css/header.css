@@ -5,7 +5,7 @@
 .background {
     margin-left: 7%; 
     height: 100px;
-    background-image: url("images/scary.png");
+    background-image: url("../images/scary.png");
     background-repeat: repeat;
     background-size: contain;
     position: relative;

@@ -1,5 +1,5 @@
 
-import TextStyles from '../TextStyles.css';
+
 function Ad(props) {
     return (
         <div className = 'advertisement'>
