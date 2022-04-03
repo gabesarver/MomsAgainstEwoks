@@ -1,15 +1,14 @@
 import React from 'react'
 import './TextStyles.css'
 import {Nav} from 'react-bootstrap'
-import EwokNavbar from './EwokNavbar.js'
 
-import background from './images/neongrid.png'
-import Header from './Header'
+import background from './images/pattern.png'
+import Copyright from './Copyright'
 
 function Homepage() {
   return (
         
-      <div className='body' style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover',
+      <div className='body' style={{ backgroundImage: `url(${background})`, backgroundSize: 'auto 25%', backgroundRepeat: 'repeat',
 
       
   }}>
@@ -123,7 +122,7 @@ function Homepage() {
 
           </div>
 
-          
+          <Copyright />
 
           
       </div>

@@ -10,8 +10,7 @@ import Copyright from './Copyright.js'
 function Action() {
   return (
     
-            <div className = 'body' style={{ backgroundImage: `url(${background})`,  backgroundSize: 'auto 25%', backgroundRepeat: 'repeat',
-                backgroundRepeat: 'repeat',
+            <div style={{ backgroundImage: `url(${background})`,  backgroundSize: 'auto 25%', backgroundRepeat: 'repeat', height: '100vh',
             }}>
                 <Header />
                 <EwokNavbar />

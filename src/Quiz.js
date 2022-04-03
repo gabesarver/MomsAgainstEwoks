@@ -66,7 +66,7 @@ export default function Quiz() {
 		<div className='app' >
 			{showScore ? (
                 <div className='score-section'>
-                    Your childs Ewok Score is {score}. Scores over 3 aren't good!
+                    Your childs Ewok Score is {score}. If their score is over 2, that means the ewoks have indoctrinated them! Get help immediately!
                 </div>
 			) : (
 				<>
