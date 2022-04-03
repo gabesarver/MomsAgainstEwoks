@@ -7,7 +7,7 @@ import Header from './Header.js'
 function Action() {
   return (
     <body className='body'>
-            <div style={{ backgroundImage: `url(${background})`, 
+            <div style={{ backgroundImage: `url(${background})`, width: '100vw', height: '100vh',
                 backgroundRepeat: 'repeat',
             }}>
                 <Header />

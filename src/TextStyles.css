@@ -7,27 +7,35 @@
     font-family: Arial;
     color: rgb(255, 115, 0);
     text-align: center;
+    text-align: top;
     font-size: 40px;
 }
 
 .body {
-    height: 450px;
-    display: flex;
-    flex-direction: column;
+    height: 100%;
     font-style: normal;
     font-family: Arial;
     color: rgb(251, 255, 0);
     text-align: left;
+    text-align: top;
     font-size: 25px;
 }
 .content {
     word-wrap: break-word;
-    margin-right: 20%;
+    width: 70%;
+    height: vh;
+    align-self: top;
+    justify-content: top;
+    vertical-align:top;
 }
 
 .advertisement {
-    height: 240px;
-    width: 120px;
-    align-self: right;
-    margin-right: 90px;
+    height: vh;
+    width: 100px;
+    display: inline-block;
+    margin-left: 15%;
+    margin-right: 5%;
+    text-align: right;
+    vertical-align: top;
+    margin-top: 2%;
 }
