@@ -1,4 +1,9 @@
 
+html {
+    height: 100%;
+    overflow: auto;
+}
+
 .header1 {
     margin: auto;
     width: 50%;
@@ -10,9 +15,20 @@
     text-align: top;
     font-size: 40px;
 }
+.header2 {
+    margin: auto;
+    width: 50%;
+    font-style: normal;
+    font-family: Arial;
+    color: rgb(255, 115, 0);
+    text-align: center;
+    text-align: top;
+    font-size: 32px;
+}
 
 .body {
-    height: 100%;
+    height: 100vh;
+    overflow: auto;
     font-style: normal;
     font-family: Arial;
     color: rgb(251, 255, 0);

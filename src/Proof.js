@@ -17,7 +17,7 @@ export default function Proof() {
         <Header />
         <EwokNavbar />
         <div className="body" style={{
-            height: '100vh', width: '100vw',
+            backgroundSize: 'cover',
             backgroundImage: `url(${background})`,
 
         }}>

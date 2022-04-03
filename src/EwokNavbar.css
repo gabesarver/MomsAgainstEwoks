@@ -1,6 +1,7 @@
 .nav {
     background-color: #831187;
     text-align: left;
+    
     height: 40px;
     width: 100%;
     
@@ -8,6 +9,7 @@
 }
 .navText {
     margin: 15px;
-    color: #28dce9;
+    color: rgb(251, 255, 0);
     font-size: 20px;
+    font-style: bold;
 }

@@ -6,8 +6,10 @@ import background from './images/neongrid.png'
 import Header from './Header'
 
 import adPic from './Ad_01.PNG'
+import adPic2 from './Ad_02.png'
 
 import Ad from './components/Ads.js'
+
 
 //import './components/TextStyles.'
 
@@ -15,9 +17,9 @@ import Ad from './components/Ads.js'
 function AboutUs() {
     return (
         
-        <div className='body' style={{ backgroundImage: `url(${background})`, width: '100vw', height: '100vh',
+        <div className='body' style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover',
 
-        backgroundRepeat: 'repeat',
+        
     }}>
         <Header />
         
@@ -54,7 +56,8 @@ function AboutUs() {
 
 
             </div>
-            <Ad img = {adPic}/>
+            <Ad img = {adPic} width = '220' height = '440'/>
+            <Ad img = {adPic2} width = '823' height = '445'/>
 
             
         </div>
