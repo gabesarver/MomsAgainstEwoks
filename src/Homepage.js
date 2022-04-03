@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/TextStyles.css";
 import { Nav } from "react-bootstrap";
-
+import scaryEwok from "./images/scary_ewok.jpg"
 import background from "./images/pattern.png";
 import Copyright from "./components/Copyright";
 
@@ -47,8 +47,6 @@ function Homepage() {
           </Nav.Link>
         </text>{" "}
         <br></br> <br></br>
-<<<<<<< HEAD
-=======
         <center className="header2"> What are Ewoks? </center>
         <text className="body">
           These furry friends of Mephistopheles appear in the new movie Star
@@ -63,7 +61,6 @@ function Homepage() {
         <center className="header2">
           <img src={scaryEwok} justify-content="center" />
         </center>
->>>>>>> 2a15908f06e6d4f0725cbc98f06c695620fcf214
         <center className="header2">Do you have evidence?</center>
         <text className="body">
           Do you really think that we would create an entire organization around
