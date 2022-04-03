@@ -3,6 +3,9 @@ import ReactAudioPlayer from 'react-audio-player';
 import ewokTwo from "./sounds/ewokTwo.mp3";
 import ewokThree from "./sounds/ewokThree.mp3";
 import ewokFour from "./sounds/ewokFour.mp3";
+import hailSatan from "./sounds/HailSatan.mp3";
+import longDay from "./sounds/LongDay.mp3";
+import youToo from "./sounds/YouToo.mp3";
 import Header from "./Header";
 import './TextStyles.css'
 import EwokNavbar from './EwokNavbar';
@@ -28,7 +31,7 @@ export default function Proof() {
             </div>
             <div className = 'content' style={{display: 'inline-block', width: "50%"}}>
               <text>Translated</text>  <br></br>
-              <ReactAudioPlayer src={ewokTwo} controls /><br></br><br></br>
+              <ReactAudioPlayer src={hailSatan} controls /><br></br><br></br>
             </div>
             <div className= 'line'></div>
             <div className = 'content' style={{display: 'inline-block', width: "50%"}}>
@@ -37,7 +40,7 @@ export default function Proof() {
               </div>
               <div className = 'content' style={{display: 'inline-block', width: "50%"}}>
               <text>Translated</text> <br></br>
-              <ReactAudioPlayer src={ewokTwo} controls /><br></br><br></br>
+              <ReactAudioPlayer src={longDay} controls /><br></br><br></br>
             </div>
             <div className= 'line'></div>
             <div className = 'content' style={{display: 'inline-block', width: "50%"}}>
@@ -46,7 +49,7 @@ export default function Proof() {
               </div>
               <div className = 'content' style={{display: 'inline-block', width: "50%"}}>
               <text>Translated</text> <br></br>
-              <ReactAudioPlayer src={ewokTwo} controls /><br></br><br></br>
+              <ReactAudioPlayer src={youToo} controls /><br></br><br></br>
             </div>
             
 
