@@ -12,7 +12,7 @@ export default function Quiz() {
 			answerOptions: [
 				{ answerText: 'Yes, they liked it.', isCorrect: true },
 				{ answerText: 'Yes, they are addicted!', isCorrect: true },
-				{ answerText: 'No.', isCorrect: false },
+				{ answerText: 'No', isCorrect: false },
 			],
 		},
 		{
@@ -27,8 +27,8 @@ export default function Quiz() {
 		{
 			questionText: 'Does your child often speak in tongues?',
 			answerOptions: [
-				{ answerText: 'Yes!', isCorrect: true },
-				{ answerText: 'They do not know how to talk yet so yes', isCorrect: false },
+				{ answerText: 'Yes', isCorrect: true },
+				{ answerText: 'They do not know how to talk yet, so yes', isCorrect: false },
 				{ answerText: 'No', isCorrect: false },
 			],
 		},
@@ -36,8 +36,16 @@ export default function Quiz() {
 			questionText: 'Is your child going around yelling "Hail Satan"?',
 			answerOptions: [
 				{ answerText: 'No', isCorrect: false },
-				{ answerText: 'Not Sure', isCorrect: false },
-				{ answerText: 'Yes!', isCorrect: true },
+				{ answerText: 'Not sure', isCorrect: false },
+				{ answerText: 'Yes, actually', isCorrect: true },
+			],
+		},
+		{
+			questionText: 'Has your child been playing "Dungeons and Dragons"?',
+			answerOptions: [
+				{ answerText: 'No', isCorrect: false },
+				{ answerText: 'Not sure', isCorrect: false },
+				{ answerText: 'Yes', isCorrect: true },
 			],
 		},
 	];
