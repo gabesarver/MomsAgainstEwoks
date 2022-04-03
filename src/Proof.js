@@ -21,8 +21,8 @@ export default function Proof() {
             backgroundImage: `url(${background})`,
 
         }}>
-            <text>You say you need proof do you? Well how about this?</text><br></br>
-            <text>We reversed and pitched down the audio of the Ewoks talking, and hear what they ACTUALLY say!</text><br></br><br></br><br></br>
+            <text>You say you need proof do you? Well how about this:</text><br></br>
+            <text><i>We reversed and pitched down the audio of the Ewoks talking. Listen to what they ACTUALLY say!</i></text><br></br><br></br><br></br>
             
             <div className = 'content' style={{display: 'inline-block', width: "50%"}}>
               <text>Ewok Language</text> <br></br>
