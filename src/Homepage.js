@@ -47,6 +47,23 @@ function Homepage() {
           </Nav.Link>
         </text>{" "}
         <br></br> <br></br>
+<<<<<<< HEAD
+=======
+        <center className="header2"> What are Ewoks? </center>
+        <text className="body">
+          These furry friends of Mephistopheles appear in the new movie Star
+          Wars: Return of the Jedi, and help the “heroes” of the movie commit
+          violent acts of terrorism with the aid of Satanic forces. They are
+          short creatures with dog-like noses to remind children of their loyal
+          furry friends, human-looking faces to trick our kids into seeing them
+          as being created in God’s image, and a teddy bear anatomy complimented
+          with beady eyes to lure our children into the embrace of Lucifer.
+        </text>{" "}
+        <br></br> <br></br>
+        <center className="header2">
+          <img src={scaryEwok} justify-content="center" />
+        </center>
+>>>>>>> 2a15908f06e6d4f0725cbc98f06c695620fcf214
         <center className="header2">Do you have evidence?</center>
         <text className="body">
           Do you really think that we would create an entire organization around
