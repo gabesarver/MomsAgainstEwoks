@@ -10,6 +10,7 @@ import Header from "./Header";
 import './TextStyles.css'
 import EwokNavbar from './EwokNavbar';
 import background from './images/pattern.png'
+import Copyright from './Copyright';
 
 export default function Proof() {
   return (
@@ -56,6 +57,7 @@ export default function Proof() {
 
 
         </div>
+        <Copyright />
         </div>
   )
 }

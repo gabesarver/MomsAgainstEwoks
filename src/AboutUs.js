@@ -9,6 +9,7 @@ import adPic from './Ad_01.PNG'
 import adPic2 from './Ad_02.png'
 
 import Ad from './components/Ads.js'
+import Copyright from './Copyright'
 
 
 //import './components/TextStyles.'
@@ -58,6 +59,7 @@ function AboutUs() {
             </div>
             <Ad img = {adPic} width = '220' height = '440'/>
             <Ad img = {adPic2} width = '823' height = '445'/>
+            <Copyright />
 
             
         </div>

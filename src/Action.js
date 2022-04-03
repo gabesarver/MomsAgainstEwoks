@@ -5,6 +5,7 @@ import './TextStyles.css'
 import Header from './Header.js'
 import adPic1 from './images/ad_03.PNG'
 import Ad from './components/Ads.js'
+import Copyright from './Copyright.js'
 
 function Action() {
   return (
@@ -49,7 +50,7 @@ function Action() {
 
                 <Ad img = {adPic1} width = '271' height = '369'/>
 
-
+                <Copyright />
             </div>
         
   )

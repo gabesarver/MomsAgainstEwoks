@@ -3,6 +3,7 @@ import EwokNavbar from './EwokNavbar';
 import Header from "./Header";
 import './quiz.css';
 import background from './images/pattern.png'
+import Copyright from './Copyright'
 
 export default function Quiz() {
     const questions = [
@@ -83,6 +84,9 @@ export default function Quiz() {
 				</>
 			)}
 		</div>
+
+		<Copyright />
+			
         </div>
 	);
 }

@@ -9,8 +9,8 @@
     box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
     display: flex;
     justify-content: space-evenly;
-    margin-left: 35%;
-    margin-top: 10%;
+    margin-left: 35vw;
+    margin-top: 10vh;
   }
 
 .score-section {

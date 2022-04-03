@@ -10,9 +10,6 @@ export default function Header() {
           <img src={logo} className="App-logo" alt="logo" />
         </div>
         <div className='background'>
-            <div className='date'>
-              <text className="body"> June 25, 1983 </text>
-            </div>
         </div>
     </div>
   )
