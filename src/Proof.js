@@ -21,7 +21,7 @@ export default function Proof() {
             backgroundSize: 'auto 25%', 
             backgroundImage: `url(${background})`,
             backgroundRepeat: 'repeat',
-
+            height: '100vh',
         }}>
             <div className = 'content'>
             <text>You say you need proof do you? Well how about this:</text><br></br>
