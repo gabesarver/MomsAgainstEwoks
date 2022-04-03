@@ -1,21 +1,32 @@
 import React from 'react'
 import './TextStyles.css'
 import EwokNavbar from './EwokNavbar.js'
+
 import background from './images/neongrid.png'
 import Header from './Header'
+
+import adPic from './Ad_01.PNG'
+
+import Ad from './components/Ads.js'
+
 //import './components/TextStyles.'
 
 
 function AboutUs() {
     return (
         
-        <div className='body' style={{ backgroundImage: `url(${background})`, 
-            backgroundRepeat: 'repeat', height: '100%',
-        }}>
-            <Header />
-            <div className = 'content' >
+        <div className='body' style={{ backgroundImage: `url(${background})`, width: '100vw',
+        height: '100vh',
+
+        backgroundRepeat: 'repeat',
+    }}>
+        <Header />
+        
+        <EwokNavbar />
+            <div className = 'content' style={{display: 'inline-block'}}>
+                
             
-                <EwokNavbar />
+                
             
                 <center className='header1'> About Us </center><br></br>
                 <text className='body'>
@@ -43,6 +54,9 @@ function AboutUs() {
 
 
             </div>
+            <Ad img = {adPic}/>
+
+            
         </div>
         
     );
