@@ -8,6 +8,7 @@
     background-image: url("images/scary.png");
     background-repeat: repeat;
     background-size: contain;
+    position: relative;
 }
 
 .logo {
@@ -19,4 +20,14 @@
 .App-logo {
     height: 10vmin;
     pointer-events: none;
+  }
+
+.date {
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 1%;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #000; 
+    background-color: rgb(105, 0, 105);
   }
