@@ -43,6 +43,8 @@ html {
     align-self: top;
     justify-content: top;
     vertical-align:top;
+    padding-left: 15px;
+    padding-top: 15px;
 }
 
 .advertisement {

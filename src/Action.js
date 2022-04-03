@@ -21,30 +21,30 @@ function Action() {
                 
             
                 <center className='header1'> What You Can Do to Help </center><br></br>
-                <center className='header2'> Spread the Word </center><br></br>
+                <center className='header2'> Spread the Word </center>
                 <text className='body'>
                 To start, we need to reach out to other mothers and let them know the horrors of Ewoks by
                 sharing this page! The more mothers out there that know of the true nature of Ewoks, the more safe our kids will be.
-                </text>
+                </text> <br></br>
 
-                <center className='header2'> Boycott Satanist Businesses </center><br></br>
+                <center className='header2'> Boycott Satanist Businesses </center>
                 <text className='body'>
                 Any businesses that peddle these demonic idols to children will NOT be getting any of my money, and they should
                 not get any of yours either! Refuse to shop at any businesses that sell even a single Ewok-related product. 
                 Other Star Wars products are of course fine.
-                </text>
+                </text> <br></br>
 
-                <center className='header2'> Write a Letter To Your Representatives </center><br></br>
+                <center className='header2'> Write a Letter To Your Representatives </center>
                 <text className='body'>
                 Unfortunately, sometimes the only way to enact real change is to get the government involved. Contact your 
                 local, state, and federal representatives and demand the prohibition of Ewok-related products!
-                </text>
+                </text> <br></br>
 
-                <center className='header2'> Support Our Cause </center><br></br>
+                <center className='header2'> Support Our Cause </center>
                 <text className='body'>
                 Strength in numbers is not to be underestimated. Donate to our cause or sign up for our mailing list to help
                  us save the children.
-                </text>
+                </text> <br></br>
                 </div>
 
                 <Ad img = {adPic1} width = '271' height = '369'/>
