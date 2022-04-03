@@ -1,15 +1,16 @@
 import React from 'react'
 import EwokNavbar from './EwokNavbar.js'
-import background from './images/neongrid.png'
+import background from './images/pattern.png'
 import './TextStyles.css'
 import Header from './Header.js'
 import adPic1 from './images/ad_03.PNG'
 import Ad from './components/Ads.js'
+import Copyright from './Copyright.js'
 
 function Action() {
   return (
     
-            <div className = 'body' style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover',
+            <div className = 'body' style={{ backgroundImage: `url(${background})`,  backgroundSize: 'auto 25%', backgroundRepeat: 'repeat',
                 backgroundRepeat: 'repeat',
             }}>
                 <Header />
@@ -49,7 +50,7 @@ function Action() {
 
                 <Ad img = {adPic1} width = '271' height = '369'/>
 
-
+                <Copyright />
             </div>
         
   )

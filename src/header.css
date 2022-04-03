@@ -21,13 +21,3 @@
     height: 10vmin;
     pointer-events: none;
   }
-
-.date {
-    position: absolute;
-    margin-left: 90%;
-    margin-top: 1%;
-    width: 9.9%;
-    height: 50px;
-    border: 1px solid #000; 
-    background-color: rgb(105, 0, 105);
-  }

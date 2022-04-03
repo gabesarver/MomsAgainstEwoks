@@ -64,3 +64,10 @@ html {
     height: 3px;
     background: rgb(251, 255, 0);
   }
+
+.footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+}

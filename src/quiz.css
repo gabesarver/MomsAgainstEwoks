@@ -9,7 +9,8 @@
     box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
     display: flex;
     justify-content: space-evenly;
-    margin-left: 35%;
+    margin-left: 35vw;
+    margin-top: 10vh;
   }
 
 .score-section {
@@ -19,7 +20,6 @@
     color: white;
   }
   
-  /* QUESTION/TIMER/LEFT SECTION */
   .question-section {
     width: 100%;
     position: relative;
@@ -49,7 +49,6 @@
     text-align: center;
   }
   
-  /* ANSWERS/RIGHT SECTION */
   .answer-section {
     width: 100%;
     display: flex;
