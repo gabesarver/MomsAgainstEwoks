@@ -6,8 +6,8 @@ import './TextStyles.css';
 export default function Header() {
   return (
     <div className='main'>
-        <div className="logo">
-            <img src={logo} className="App-logo" alt="logo" />
+        <div className="logo">     
+          <img src={logo} className="App-logo" alt="logo" />
         </div>
         <div className='background'>
             <div className='date'>
