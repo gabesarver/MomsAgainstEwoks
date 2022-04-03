@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/MomsAgainstEwoks/static/css/main.37b9b8ed.css",
-    "main.js": "/MomsAgainstEwoks/static/js/main.b754a4a2.js",
+    "main.css": "/MomsAgainstEwoks/static/css/main.f8dd1130.css",
+    "main.js": "/MomsAgainstEwoks/static/js/main.c2634391.js",
     "static/js/787.08a83710.chunk.js": "/MomsAgainstEwoks/static/js/787.08a83710.chunk.js",
     "static/media/scary.png": "/MomsAgainstEwoks/static/media/scary.1ac655e8a8e6e45ffe04.png",
-    "static/media/neongrid.png": "/MomsAgainstEwoks/static/media/neongrid.69fbaa9f7fd4597ed5b3.png",
     "static/media/ad_03.PNG": "/MomsAgainstEwoks/static/media/ad_03.767349d366c7fc212a58.PNG",
     "static/media/YouToo.mp3": "/MomsAgainstEwoks/static/media/YouToo.cd91a848b88c4fa1df2a.mp3",
+    "static/media/pattern.png": "/MomsAgainstEwoks/static/media/pattern.18816aac768eed661044.png",
     "static/media/Ad_02.png": "/MomsAgainstEwoks/static/media/Ad_02.0fea27774f107d47bad5.png",
     "static/media/LongDay.mp3": "/MomsAgainstEwoks/static/media/LongDay.639c0e0eb070b08cf496.mp3",
     "static/media/ewokFour.mp3": "/MomsAgainstEwoks/static/media/ewokFour.e2741416d0049a6d46b3.mp3",
     "static/media/Ad_01.PNG": "/MomsAgainstEwoks/static/media/Ad_01.2fb6b068992579afdfea.PNG",
     "static/media/HailSatan.mp3": "/MomsAgainstEwoks/static/media/HailSatan.1c7e7a3ab660223534cf.mp3",
+    "static/media/scary_ewok.jpg": "/MomsAgainstEwoks/static/media/scary_ewok.8c7092fd38499104ecd6.jpg",
     "static/media/ewokTwo.mp3": "/MomsAgainstEwoks/static/media/ewokTwo.a9de831636247c68b955.mp3",
     "static/media/ewokThree.mp3": "/MomsAgainstEwoks/static/media/ewokThree.481f2c616759d08de729.mp3",
     "static/media/fuckewok.svg": "/MomsAgainstEwoks/static/media/fuckewok.0a1ded9bf290cfddf979826ee7c0066a.svg",
     "index.html": "/MomsAgainstEwoks/index.html",
-    "main.37b9b8ed.css.map": "/MomsAgainstEwoks/static/css/main.37b9b8ed.css.map",
-    "main.b754a4a2.js.map": "/MomsAgainstEwoks/static/js/main.b754a4a2.js.map",
+    "main.f8dd1130.css.map": "/MomsAgainstEwoks/static/css/main.f8dd1130.css.map",
+    "main.c2634391.js.map": "/MomsAgainstEwoks/static/js/main.c2634391.js.map",
     "787.08a83710.chunk.js.map": "/MomsAgainstEwoks/static/js/787.08a83710.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37b9b8ed.css",
-    "static/js/main.b754a4a2.js"
+    "static/css/main.f8dd1130.css",
+    "static/js/main.c2634391.js"
   ]
 }
