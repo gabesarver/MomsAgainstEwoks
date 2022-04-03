@@ -2,7 +2,7 @@ import React from 'react'
 import './TextStyles.css'
 import EwokNavbar from './EwokNavbar.js'
 
-import background from './images/neongrid.png'
+import background from './images/pattern.png'
 import Header from './Header'
 
 import adPic from './Ad_01.PNG'
@@ -17,7 +17,7 @@ import Ad from './components/Ads.js'
 function AboutUs() {
     return (
         
-        <div className='body' style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover',
+        <div className='body' style={{ backgroundImage: `url(${background})`, backgroundSize: 'auto 25%', backgroundRepeat: 'repeat',
 
         
     }}>

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import EwokNavbar from './EwokNavbar';
 import Header from "./Header";
 import './quiz.css';
+import background from './images/pattern.png'
 
 export default function Quiz() {
     const questions = [
@@ -58,7 +59,7 @@ export default function Quiz() {
 	};
     
 	return (
-        <div style={{backgroundColor: 'grey',}}>
+        <div style={{backgroundImage: `url(${background})`,  backgroundSize: 'auto 25%', backgroundRepeat: 'repeat', height: '100vh', }}>
         <Header />
         <EwokNavbar />
 		<div className='app' >

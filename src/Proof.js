@@ -9,7 +9,7 @@ import youToo from "./sounds/YouToo.mp3";
 import Header from "./Header";
 import './TextStyles.css'
 import EwokNavbar from './EwokNavbar';
-import background from './images/neongrid.png'
+import background from './images/pattern.png'
 
 export default function Proof() {
   return (
@@ -17,8 +17,9 @@ export default function Proof() {
         <Header />
         <EwokNavbar />
         <div className="body" style={{
-            backgroundSize: 'cover',
+            backgroundSize: 'auto 25%', 
             backgroundImage: `url(${background})`,
+            backgroundRepeat: 'repeat',
 
         }}>
             <text>You say you need proof do you? Well how about this:</text><br></br>
