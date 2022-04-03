@@ -7,13 +7,14 @@ import AboutUs from './AboutUs';
 import reportWebVitals from './reportWebVitals';
 import Action from './Action';
 import Proof from './Proof';
+import Quiz from './Quiz';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        
+        <Route path="/MomsAgainstEwoks/Quiz" element= {<Quiz />}/>
         <Route path="/MomsAgainstEwoks/AboutUs" element= {<AboutUs />}/>
         <Route path="/MomsAgainstEwoks" element= {<App />}/>
         <Route path="/MomsAgainstEwoks/Action" element= {<Action />}/>

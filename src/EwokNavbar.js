@@ -11,6 +11,7 @@ function EwokNavbar() {
                         <Nav.Link href='/MomsAgainstEwoks/AboutUs' className='navText' >About Us</Nav.Link>
                         <Nav.Link href='/MomsAgainstEwoks/Action' className='navText' >What Can You Do</Nav.Link>
                         <Nav.Link href='/MomsAgainstEwoks/Proof' className='navText' >Proof</Nav.Link>
+                        <Nav.Link href='/MomsAgainstEwoks/Quiz' className='navText' >Ewok Quiz</Nav.Link>
                         <Nav.Link href='/MomsAgainstEwoks' className='navText'>Home</Nav.Link>
                         
                         
