@@ -15,8 +15,7 @@ import Ad from './components/Ads.js'
 function AboutUs() {
     return (
         
-        <div className='body' style={{ backgroundImage: `url(${background})`, width: '100vw',
-        height: '100vh',
+        <div className='body' style={{ backgroundImage: `url(${background})`, width: '100vw', height: '100vh',
 
         backgroundRepeat: 'repeat',
     }}>
