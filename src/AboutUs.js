@@ -37,6 +37,7 @@ function AboutUs() {
                 efforts to indoctrinate our children through the selling 
                 of Ewok toys.<br></br>
                 </text>
+                <div className= 'line'></div>
 
                 <center className='header1'>What are Ewoks?<br></br></center>
                 <text className='body'>
